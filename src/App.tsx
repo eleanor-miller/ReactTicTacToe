@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 export function App() {
   const [game, setGame] = useState({
     board: [
-      [' ', ' ', ' '],
+      ['O', ' ', ' '],
       [' ', 'X', ' '],
       [' ', ' ', ' '],
     ],
